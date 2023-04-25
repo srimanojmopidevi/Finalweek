@@ -1,6 +1,6 @@
 describe('dashboard', () => {
   beforeEach(() => {
-    cy.visit('localhost:4200/dashboard');
+    cy.visit('https://fir-test-application-6b3d1.web.app/dashboard');
   });
 
   it(`has title 'Tour of Heroes'`, () => {
